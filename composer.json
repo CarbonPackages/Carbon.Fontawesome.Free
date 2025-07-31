@@ -1,0 +1,10 @@
+{
+    "name": "carbon/fontawesomeicons",
+    "description": "Inline Fontawesome Icons into Neos",
+    "type": "neos-carbon",
+    "autoload": {
+        "psr-4": {
+            "Carbon\\Fontawesome\\Icons\\": "Classes/"
+        }
+    }
+}
