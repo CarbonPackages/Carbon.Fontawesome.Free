@@ -2,6 +2,7 @@
     "name": "carbon/fontawesomeicons",
     "description": "Inline Fontawesome Icons into Neos",
     "type": "neos-carbon",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Carbon\\Fontawesome\\Icons\\": "Classes/"
