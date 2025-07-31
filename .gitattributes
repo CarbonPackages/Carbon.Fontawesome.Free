@@ -6,6 +6,7 @@
 /.prettierignore export-ignore
 /.prettierrc export-ignore
 /build.mjs export-ignore
+/custom-icons.json export-ignore
 /Makefile export-ignore
 /package.json export-ignore
 /pnpm-lock.yaml export-ignore
