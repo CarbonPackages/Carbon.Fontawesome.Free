@@ -7,4 +7,4 @@ Neos:
             fusionObjects:
               Fontawesome:
                 documentation: Add icon from [Fontawesome 7 Free](https://fontawesome.com/search)
-                snippet: <Carbon.Fontawesome:Icon icon="${1|solid,regular,brands,duotone-solid|}:${2}" />
+                snippet: <Carbon.Fontawesome:Icon icon="${1|solid,regular,brands|}:${2}" />
