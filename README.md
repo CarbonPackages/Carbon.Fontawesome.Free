@@ -1,4 +1,4 @@
-# Carbon.Fontawesome Pro
+# Carbon.Fontawesome Free
 
 This package include the icons from [Fontawesome 7 Free] and the database for [Carbon.Fontawesome].
 
