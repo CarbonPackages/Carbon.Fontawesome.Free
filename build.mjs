@@ -262,13 +262,9 @@ function getValues(name, obj, writeIcons) {
                     }
                     raw = raw.replaceAll("fa-", "fa-icon-");
                     if (raw.includes(`<path opacity=".4"`)) {
-                        raw = raw.replace(
-                            `<path opacity=".4"`,
-                            `<defs><style>.fa-icon-secondary{opacity:.4}</style></defs><path class="fa-icon-secondary"`,
-                        );
                         raw = raw.replaceAll(
                             `<path opacity=".4"`,
-                            `<path class="fa-icon-secondary"`,
+                            `<path class="fa-icon-secondary" opacity=".4"`,
                         );
                         raw = raw.replaceAll(
                             `<path fill="currentColor"`,
