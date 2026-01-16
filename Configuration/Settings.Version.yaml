@@ -4,3 +4,7 @@ Neos:
       frontendConfiguration:
         Carbon.Fontawesome:
           version: 7.1.0
+Carbon:
+  Fontawesome:
+    version: 7.1.0
+    variant: free

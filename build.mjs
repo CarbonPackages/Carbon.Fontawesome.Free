@@ -172,6 +172,12 @@ function buildIcons(writeIcons = true) {
                     },
                 },
             },
+            Carbon: {
+                Fontawesome: {
+                    version,
+                    variant: "free",
+                },
+            },
         },
         yamlOptions,
     );
