@@ -16,6 +16,7 @@ prepare:
 	@rm -rf Resources
 	@mkdir -p Resources/Private
 	@mkdir -p Resources/Public
+	@touch Resources/Public/.flowFileMonitorIgnore
 
 ## Create icon database (re-write of existing icon files)
 build:
